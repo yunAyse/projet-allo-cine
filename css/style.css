@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #393e46;
+
+  font-family: Arial;
+  width: 100%;
+}
+
+header {
+  background-color: #f7f7f7 ;
+  text-align: center;
+
+  font-family: Roboto Mono;
+  
+  margin-top: 0;
+  padding-top: 20px;
+  height: 60px;
+  
+}
+
+
+header>h1>img {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.container-fluid {
+  display: grid;
+  
+  width: 50%;
+  margin: auto;
+
+  background-color: #777777;
+
+  border-radius: 32px;
+  margin-top: 50px;
+  padding: 25px 250px 25px 250px;
+
+
+}
+
+.container {
+  
+  justify-content: center;
+  overflow: hidden;
+
+  font-family: Roboto Condensed;
+  
+}
+
+.box-card {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+
+  margin: 20px 0 40px 0;
+  width: 700px;
+  height: 330px;
+
+  border-radius: 20px;
+  box-shadow: 10px 0 5px 5px #1a1b1b;
+
+}
+
+
+.box-card .card-img {
+  object-fit: cover;
+  width: 170px;
+
+  border-radius: 0 20px 0 20px;
+}
+
+
+.body-card {
+  padding: 20px 40px 20px 20px;
+  width: 350px;
+
+}
+
+.body-card .text-card {
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  width: 500px;
+  
+}
+
+.info-film .actors {
+  width: 300px;
+}
+
+
+.body-card .info-film p {
+  font-size: 12px ;
+  width: 200px;
+
+  margin-bottom: 10px;
+}
+
+.film-img img {
+  object-fit: contain;
+  width: 120px;
+
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+.film-img{
+  display: flex;
+  
+  width: 370px;
+  margin-left: 50px;
+}
+
+.film-img img:hover {
+  transition: transform .2s;
+  width: 250px;
+  margin: 0 auto;
+
+  transform: scale(1.1);
+
+}
+
+
+
+
+
+
+/*MEDIA QUERY SECTION*/
+
+@media only screen and (max-width:600px) {
+  
+}
+
+
+@media only screen and (min-width:600px) {
+  
+}
+
+
+
+@media only screen and (min-width:768px) {
+  
+}
+
+
+
+@media only screen and (min-width:992px) {
+  
+}
+
+
+@media only screen and (min-width:1200px) {
+  
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*decoration*/
+.box-card i {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #777777;
+  border-radius: 50%;
+  background-color: #777777;
+}
+
+.box-card .top {
+  margin-top: -35px;
+}
+
+.box-card .bottom {
+  margin-top: -6px;
+  margin-bottom: -110px;
+
+}
+
+.box-card .left {
+  float: left;
+  margin-left: -210px;
+}
+
+.box-card .right {
+  float: right;
+  margin-right: -190px;
+}
+
+
+/*decoration*/
+
+
+
+
+
